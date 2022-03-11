@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart | Register Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&family=Shippori+Antique+B1&family=Shizuru&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/myProfil.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="index.html"><span>G</span>-Store</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto" id="links">
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Sign In</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Register.html">Sign Up</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto" id="userInfo">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="user"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" id="logout">Log Out</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./myProduct.html" id="logout">My Product</a>
+                    </li>
+                    <li class="nav-item shop">
+                        <a class="nav-link" href="cartProduct.html">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                            <span class="badge"></span>
+                            <div class="carts-products"></div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <section class="profil" id="profil">
+            <h2>My Profil</h2>
+            <div class="row pro">
+                <div class="col-md-5">
+                    <img src="" alt="" id="imagePro">
+                </div>
+                <div class="col-md-7 pro1">
+                    <h2 id="username"></h2>
+                    <p id="email">email</p>
+                    <p id="productLength">Product Length : </p>
+                    <a href="./editProfil.html" id="edit"> Edit Profil</a>
+                </div>
+            </div>
+            <a href="./createCart.html" class="plus"> <i class="fa fa-plus"></i> </a>
+        </section>
+    </div>
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/user.js"></script>
+    <script src="./js/profil.js"></script>
+</body>
+</html>

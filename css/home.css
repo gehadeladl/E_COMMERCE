@@ -1,0 +1,102 @@
+.home{
+    margin-top: 40px;
+    background-color: #eef8ef;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    padding: 33px 15px;
+}
+.home .products h2{
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 38px;
+    margin-left: 5px;
+}
+.home .products #inpfil{
+    outline: none;
+    box-shadow: none;
+    border-color: #c2d1c3;
+    margin-bottom: 30px;
+}
+.products .product-item{
+    background-color: #fff;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    overflow: hidden;
+}
+
+.col-lg-4{
+    margin: 10px -7px 10px 4px;
+}
+.products .product-item img{
+    width: 100%;
+    height: 272px;
+}
+.product-item-desc{
+    padding: 15px;
+    margin-top: 10px;
+}
+.product-item-desc h5 a{
+    cursor: pointer;
+}
+.product-item-desc h5 a ,.product-item-desc h5{
+    font-weight: bold;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+}
+#yes{
+    border: 2px solid #519969;
+}
+#yes .btnEdt , #yes .btnDele{
+    width: 40%;
+    margin-left: 1px;
+}
+#yes .btnEdi1 , #yes .btnEele1{
+    width: 49%;
+}
+#no{
+    height: 466px;
+}
+#no .add-to-cart{
+    margin-top: 15px;
+}
+.product-item-desc p{
+    color: #999292;
+    margin-top: -5px;
+    letter-spacing: 1px;
+    margin-bottom: 14px;
+}
+.product-item-desc button{
+    background: none;
+    color: #519969;
+    background-color: #eef8ef;
+    width: 100%;
+    padding: 7px;
+    border: none;
+    letter-spacing: 2px;
+    outline: none !important;
+}
+.product-item-desc button i {
+    margin-right: 6px;
+}
+.fa-heart{
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    color: #fff;
+    cursor: pointer;
+}
+.active{
+    color: #519969;
+}
+@media(max-width:990px){
+    .col-lg-4 {
+        margin: 10px -10px 10px 0px;
+    }
+}
